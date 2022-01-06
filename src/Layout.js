@@ -8,7 +8,9 @@ const Layout = () => {
     <div className="App">
       <Header />
       <Nav />
-      <Outlet />
+      <main>
+        <Outlet />
+      </main>
       <Footer />
     </div>
   );
