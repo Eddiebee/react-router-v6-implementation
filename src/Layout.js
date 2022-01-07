@@ -5,14 +5,14 @@ import Footer from "./Footer";
 
 const Layout = () => {
   return (
-    <div className="App">
+    <>
       <Header />
       <Nav />
       <main>
         <Outlet />
       </main>
       <Footer />
-    </div>
+    </>
   );
 };
 
